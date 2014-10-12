@@ -1,0 +1,24 @@
+{
+    "name": "devster/uauth",
+    "description": "Micro PHP HTTP authentication library",
+    "keywords": ["http", "auth", "basic", "library", "micro"],
+    "homepage": "https://github.com/devster/uauth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Perret",
+            "email": "jeremy@devster.org"
+        }
+    ],
+    "autoload": {
+            "psr-4": { "Uauth\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "kriswallsmith/buzz": "dev-master"
+    }
+}

@@ -9,6 +9,19 @@ Micro PHP HTTP authentication library
 
 ![](http://i.imgur.com/gaxDghEl.png)
 
+Installation
+------------
+
+    composer require devster/uauth "1.*"
+
+Or require a single file
+
+```php
+require_once 'src/Basic.php';
+
+use Uauth\Basic;
+```
+
 Usage
 -----
 

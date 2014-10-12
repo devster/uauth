@@ -1,6 +1,10 @@
 Uauth
 =====
 
+[![Build Status](https://travis-ci.org/devster/uauth.svg?branch=master)](https://travis-ci.org/devster/uauth)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/devster/uauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/devster/uauth/?branch=master)
+[![PHP version](https://badge.fury.io/ph/devster%2Fuauth.svg)](http://badge.fury.io/ph/devster%2Fuauth)
+
 Micro PHP HTTP authentication library
 
 ![](http://i.imgur.com/gaxDghEl.png)

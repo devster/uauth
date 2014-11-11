@@ -101,7 +101,7 @@ $app->run();
 Tests
 -----
 
-Tests require php >= 5.4 because some functional tests need the php built-in web server.
+You will need php >= 5.4 if you want to run tests with php built-in web server.
 
     php -S localhost:8080 -t tests/server
     vendor/bin/phpunit

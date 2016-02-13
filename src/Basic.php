@@ -96,7 +96,7 @@ class Basic
             header('HTTP/1.0 401 Unauthorized');
 
             if ($this->deny) {
-                call_user_func($this->deny);
+                call_user_func($this->deny, $user);
             }
 
             exit;
